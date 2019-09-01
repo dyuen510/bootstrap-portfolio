@@ -7,98 +7,105 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
   <style>
-  
-  body{
-            background:url("concrete_seamless.png")
-        }
-    h3{
-        overflow:auto;
-        position: absolute;
-         bottom: 20px;
-        width: 100%;
-        padding: 15px;
-         margin-bottom: 0;
-       font-weight: 300;
-        line-height: 30px;
-        color: #ffffff;
-        text-align: center;
-        background: #4aaaa5;
-          border-bottom: 0;
+    body {
+      background: url("concrete_seamless.png")
     }
-  .logo{
-            font-size:35px;
-            background-color:#4aaaa5;
-            text-align:center;
-            color:white;
-           
-            
-        
-          
-        }
-        .nav{
-            background-color:white;
-            text-align:center;
-            padding:20px;
-          
-           
-           
-        }
-        a{
-            text-align:center;
-            padding:20px;
-            color:#4aaaa5;
-            background-color:white;
-           
-        }
+
+    h3 {
+      overflow: auto;
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 0;
+      font-weight: 300;
+      line-height: 30px;
+      color: #ffffff;
+      text-align: center;
+      background: #4aaaa5;
+      border-bottom: 0;
+    }
+
+    .logo {
+      font-size: 35px;
+      background-color: #4aaaa5;
+      text-align: center;
+      color: white;
 
 
 
-  .foot{
-            background-color:#666;
-            color:#ccc;
-            text-align:center;
-            padding:30px 0;
-            border-top:8px solid #4aaaa5;
-            margin-top:100px;
-        
-  }
 
-  .image{
-      background-color:white;
-      max-width:100%;
+    }
+
+    .nav {
+      background-color: white;
+      text-align: center;
+      padding: 20px;
+
+
+
+    }
+
+    a {
+      text-align: center;
+      padding: 20px;
+      color: #4aaaa5;
+      background-color: white;
+
+    }
+
+
+
+    .foot {
+      background-color: #666;
+      color: #ccc;
+      text-align: center;
+      padding: 30px 0;
+      border-top: 8px solid #4aaaa5;
+      margin-top: 100px;
+
+    }
+
+    img {
+      max-width: 100%;
+      height:380px;
+      /* display:block; */
+    }
+
+    .imgbox{
+    background-color:white;
+    max-width:100%;
     border: 0 none;
     opacity: 0.8;
     padding:0px;
     margin-left:50px;
-    height: auto;
     margin-top: 10px;
     margin-right: 25px;
 
   
   }
-  .port{
-      background-color:white;
-      color:#4aaaa5;
-      border-bottom:2px solid #ccc;
-      margin-top:30px;
-      padding:10px;
-      margin-right:600px;
-      margin-left:50px;
-  }
-  .main{
-      margin-right:50px;
-  }
-  
+    .port {
+      background-color: white;
+      color: #4aaaa5;
+      border-bottom: 2px solid #ccc;
+      margin-top: 10px;
+      padding: 10px;
+      margin-left: 10px;
+    }
+
+    .main {
+      margin: 0px;
+    }
   </style>
 </head>
 
 <body>
 
   <div class="row">
-    <div class="col-sm-3 col-md-6 logo">
+    <div class="col-sm-3 col-md-4 logo">
       <header>David</header>
     </div>
-    <div class="col-sm-3 col-md-6 nav">
+    <div class="col-sm-3 col-md-8 nav">
       <nav>
         <a href="index.html">About</a>
         <a href="portfolio.html">Portfolio</a>
@@ -106,33 +113,53 @@
       </nav>
     </div>
 
-  </header>
-
-    <div class="row main">
-        <div class="col-sm-3 col-md-6 port">
+    </header>
+  </div>
+  <div class="row main">
+    <div class="col-sm-3 col-md-6 port">
       <h1>Portfolio</h1>
     </div>
+  </div>
 
+  <!-- First set of images on portfolio -->
+  <div class="row">
+    <div class="col-sm-3 col-md-4 imgbox">
+      <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+      <h3>Word Guess</h3>
+    </div>
+    <div class="col-sm-3 col-md-4 imgbox">
+      <img src="assets/images/gif.jpg" alt="Giftastic">
+      <h3>GifTastic</h3>
+    </div>
+  </div>
+<!-- second set of images on portfolio -->
+  <div class="row">
+    <div class="col-sm-3 col-md-4 imgbox">
+        <img src="assets/images/crystal.jpg" alt="Crystal Collector">
+        <h3>Crystal Collector Game</h3>
+      </div>
+
+      <div class="col-sm-3 col-md-4 imgbox">
+        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+        <h3>Rock Paper Scissors</h3>
+      </div>
+  </div>
+<!-- third set of images on portfolio -->
+<div class ="row">
+  <div class="col-sm-3 col-md-4 imgbox">
+    <img src="assets/images/trivia.jpg" alt="Trivia Game">
+    <h3>Trivia Game</h3>
+  </div>
 </div>
-    <div class="row">
-    <div class="col-sm-3 image">
-      
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
-    
 
-        <h3>Word Guess</h3>
-    
-    <div class="col-sm-3 image">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
 
-        <h3>RPG Game</h3>
-    </div>
-    </div>
+  <!-- <h3>RPG Game</h3>
+      </div>
     </div>
     
       <div class="row main"></div>
       <div class="col-sm-3 image">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+        
 
         <h3>Trivia Game</h3>
       
@@ -152,18 +179,18 @@
 
     </section>
 
-  </div>
+  </div> -->
 
   <div class="row">
     <div class="col-sm-12 foot">
-  <footer>
-    
-      Copyright &copy;
-    
-  </footer>
-</div>
+      <footer>
 
-</div>
+        Copyright &copy;
+
+      </footer>
+    </div>
+
+  </div>
 </body>
 
 </html>
